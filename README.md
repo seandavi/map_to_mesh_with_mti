@@ -16,7 +16,8 @@ docker push seandavi/mti_batch
 ```sh
 docker run -v input_dir:/data \
     -e USERNAME="UMLS_USERNAME" \
-	-e PASSWORD="UMLS_PASSWORD" [OPTIONS] inputFile
+    -e PASSWORD="UMLS_PASSWORD" \
+    seandavi/mti_batch [OPTIONS] inputFile
 ```
 
 Options include:
