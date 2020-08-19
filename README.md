@@ -1,5 +1,7 @@
 # Run MTI in batch mode with Docker image
 
+MTI is the main product of the Indexing Initiative project and has been providing indexing recommendations based on the Medical Subject Headings (MeSH®) vocabulary since 2002. See [MTI Documentation and Home Page for details](https://ii.nlm.nih.gov/MTI/).
+
 ## Build docker
 
 ```sh
@@ -9,7 +11,9 @@ docker push seandavi/mti_batch
 
 ## Running
 
-1. Place file(s) to be analyzed into docker container with volume mount
+- [MTI documentation](https://ii.nlm.nih.gov/resource/MTI_help_info.html)
+
+1. Place file(s) to be analyzed into docker container with volume mount.
 2. Run docker container specifying environment variables `USERNAME` and `PASSWORD`
 3. Capture stdout from container, as that will be the output
 
