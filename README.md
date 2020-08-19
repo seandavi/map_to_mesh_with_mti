@@ -14,7 +14,7 @@ docker push seandavi/mti_batch
 - [MTI documentation](https://ii.nlm.nih.gov/resource/MTI_help_info.html)
 
 1. Place file(s) to be analyzed into docker container with volume mount.
-2. Run docker container specifying environment variables `USERNAME` and `PASSWORD`
+2. Run docker container specifying environment variables `USERNAME` and `PASSWORD`. **Use your UMLS username and password here; ie., you need a UMLS account**.
 3. Capture stdout from container, as that will be the output
 
 ```sh
